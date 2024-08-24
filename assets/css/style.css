@@ -1,0 +1,52 @@
+/*Nav estilos*/
+.navbar {
+  background-color: rgb(226, 154, 178);
+}
+
+/*Header estilos*/
+.header-img {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 472px;
+
+}
+
+.header-parrafo {
+  text-align: center;
+
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+
+/*Servidores estilo*/
+
+.servidores{
+  text-align: center;
+}
+
+.img-card-servidor{
+  width: 300px;
+  height: 300px;
+}
+
+/*Consolas estilo*/
+
+.consolas{
+  text-align: center;
+}
+
+.img-card-consolas{
+  width: 150px;
+  height: 150px;
+
+}
+
+.botones{
+  border: none;
+  background-color: transparent;
+}
+
