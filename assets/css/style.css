@@ -1,9 +1,16 @@
+body {
+  background: rgb(254, 168, 224);
+  background: radial-gradient(circle, rgba(254, 168, 224, 1) 0%, rgba(251, 251, 251, 1) 100%);
+  
+}
+
 /*Nav estilos*/
 .navbar {
-  background-color: rgb(226, 154, 178);
+  background-color: rgb(250, 145, 180);
 }
 
 /*Header estilos*/
+
 .header-img {
 
   background-repeat: no-repeat;
@@ -17,10 +24,50 @@
 
 }
 
+.carousel {
+  text-align: center;
+  height: 472px;
+
+}
+
 .carousel-item {
+  color: white;
+}
+
+/*Ingreso*/
+
+.contenedor-ingreso{
+  background-color: aliceblue;
+  border-radius: 15px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+
+}
+
+.form-textos{
+  align-items: center;
+  margin: auto;
+}
+
+.img-ingreso{
+  width: 200px;
+  height: 200px;
+
+}
+
+
+/*Consolas estilo*/
+
+.consolas {
   text-align: center;
 }
 
+.img-card-consolas {
+  width: 100px;
+  height: 100px;
+
+}
 
 /*Servidores estilo*/
 
@@ -29,24 +76,10 @@
 }
 
 .img-card-servidor{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 
-/*Consolas estilo*/
-
-.consolas{
-  text-align: center;
+.btn {
+  width: 200px;
 }
-
-.img-card-consolas{
-  width: 150px;
-  height: 150px;
-
-}
-
-.botones{
-  border: none;
-  background-color: transparent;
-}
-
